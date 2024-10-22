@@ -54,7 +54,7 @@ body {
 
 .WAF {
     height: 100vh;
-    background: url(/image/background.png) center/cover no-repeat; 
+    background: url("./image/background.png") center/cover no-repeat; 
     position: relative;
 }
 .overlay h1{
