@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
     position: fixed;
     width: 100%;
@@ -49,12 +49,12 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: #FF6F61; /* Cambia de color al pasar el ratón */
+    color: #FF6F61; 
 }
 
 .WAF {
     height: 100vh;
-    background: url(/image/background.png) center/cover no-repeat; /* Aquí va la imagen de fondo */
+    background: url(/image/background.png) center/cover no-repeat; 
     position: relative;
 }
 .overlay h1{
