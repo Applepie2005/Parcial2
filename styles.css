@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #fff;
+    margin-right: auto;
+}
+
+.navbar ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FF6F61; /* Cambia de color al pasar el ratón */
+}
+
+.WAF {
+    height: 100vh;
+    background: url(/image/background.png) center/cover no-repeat; /* Aquí va la imagen de fondo */
+    position: relative;
+}
+.overlay h1{
+    font-family: 'Playfair Display', sans-serif;
+}
+.overlay p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Playfair Display', sans-serif;
+    color: #fff;
+}
+h2{
+    font-size: 2rem;
+    color: #323232;
+}
+h3{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+p {
+    color: #ffffff; 
+    font-size: 16px;
+    line-height: 1.6; 
+}
+
+.concept-section {
+    
+    background-color: #19234a;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.concept-section p{
+    color: #f1f1f1;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
+.basados-section {
+    padding: 50px;
+    background-color: #f0edc7;
+}
+
+.basados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basado {
+    background-color: #de9f01;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.basado img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.diferencias-section {
+    padding: 50px;
+    background-color: #f0edc7;
+}
+
+.diferencias {
+    display: flex;
+    justify-content:space-around
+}
+
+.diferencia {
+    background-color: #c96d0b;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.diferencia img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sobre-el-autor {
+    background-color: #3e236c; 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(196, 149, 253, 0.1); 
+    max-width: 800px;
+    margin: 20px auto; 
+    text-align: center;
+}
+.sobre-el-autor:hover {
+    background-color: #24083e; 
+}
+
+.autor-info {
+    position: relative; 
+}
+
+.autor-imagen {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 5px solid #c8aef8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+}
+.autor-info h2{
+    color: #f1f1f1;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
